@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./sections/Footer.jsx";
-import WhatsAppButton from "./components/WhatsAppButton.jsx";
+// import WhatsAppButton from "./components/WhatsAppButton.jsx";
 import Main from "./pages/Main.jsx";
 
 
@@ -10,10 +10,10 @@ export default function App() {
   return (
     <Router>
       <div className="relative gradient text-white min-h-screen">
-        <WhatsAppButton
-          phone="447521440329"
-          message="Hello! I saw your website and would like to connect with WEBBLIXO."
-        />
+        // <WhatsAppButton
+        //   phone="447521440329"
+        //   message="Hello! I saw your website and would like to connect with WEBBLIXO."
+        // />
         <Navbar />
 
         <Routes>
