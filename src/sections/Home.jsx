@@ -3,14 +3,13 @@ import HeroImg from "../assets/sr2.jpg";
 
 export default function Home() {
   return (
-    <section className="min-h-screen pt-40 bg-[#F6EFEA] text-[#2F2F2F] relative overflow-hidden pt-30 lg:pt-35">
+    <section className="min-h-screen bg-[#F6EFEA] text-[#2F2F2F] relative overflow-hidden pt-40">
 
       {/* MAIN WRAPPER */}
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-20 flex flex-col lg:flex-row items-center gap-16">
 
         {/* LEFT CONTENT */}
         <div className="flex-1 z-10 flex flex-col items-center lg:items-start">
-
           <div className="text-center lg:text-left">
 
             {/* TAG */}
@@ -49,18 +48,21 @@ export default function Home() {
           {/* GOLD RING */}
           <div
             className="
-              absolute 
-              w-[320px] h-80 sm:w-95 sm:h-95 lg:w-106.5 lg:h-106.5
-              rounded-full 
-              border-28 sm:border-32 lg:border-36
-              border-[#E6B65C] 
-              -top-2 -right-2
+              absolute
+              w-[360px] h-[360px]
+              sm:w-[420px] sm:h-[420px]
+              lg:w-[480px] lg:h-[480px]
+              rounded-full
+              border-[18px] sm:border-[22px] lg:border-[26px]
+              border-[#E6B65C]
+              top-1/2 left-1/2
+              -translate-x-1/2 -translate-y-1/2
               z-0
             "
           />
 
           {/* IMAGE */}
-          <div className="relative z-10 w-[320px] h-80 sm:w-95 sm:h-95 lg:w-105 lg:h-105 rounded-full overflow-hidden shadow-2xl bg-white">
+          <div className="relative z-10 w-[320px] h-[320px] sm:w-[360px] sm:h-[360px] lg:w-[400px] lg:h-[400px] rounded-full overflow-hidden shadow-2xl bg-white">
             <img
               src={HeroImg}
               alt="Skincare Experts"
@@ -71,16 +73,16 @@ export default function Home() {
           {/* BADGE */}
           <div
             className="
-              absolute 
-              -bottom-3 right-0 sm:right-2.5
+              absolute
+              bottom-0 right-6
               w-28 h-28 sm:w-32 sm:h-32 lg:w-36 lg:h-36
-              rounded-full 
-              flex items-center justify-center 
+              rounded-full
+              flex items-center justify-center
               text-[11px] sm:text-[12px]
-              uppercase tracking-widest 
+              uppercase tracking-widest
               text-white
               bg-[#6B3F2A]/90
-              backdrop-blur 
+              backdrop-blur
               z-20
               text-center
             "
