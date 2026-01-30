@@ -73,7 +73,7 @@ export default function Navbar() {
             <img
               src={Logoo}
               alt="logo"
-              className="h-10 sm:h-20 w-auto object-contain"
+              className="h-20 sm:h-20 w-auto object-contain"
             />
           </Link>
 
